@@ -1,0 +1,37 @@
+.card {
+  max-width: 500px;
+  text-align: justify;
+  box-shadow: 1px 1px 4px #cecece;
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.profile {
+  float: left;
+}
+
+.name, .job {
+  margin: 0;
+}
+
+.cover {
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #636363;
+    margin: 0;
+}
+
+.content, .footer {
+  margin-left: 70px;
+}
+
+.fa {
+    margin-right: 15px;
+    color: #636363;
+}
+

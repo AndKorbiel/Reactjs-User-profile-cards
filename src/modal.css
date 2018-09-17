@@ -1,0 +1,36 @@
+.MyButton {
+    padding: 0px 14px;
+    background: #07bb07;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    line-height: 72px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    border-radius: 48px;
+    border: 0;
+}
+
+.popover {
+    background: #fff;
+    border-radius: 4px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+    top: 30%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popover-container {
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+    background: #000000bf;
+    z-index: 99;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}

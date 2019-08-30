@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import './ProfileCard.css';
+import './css/ProfileCard.css';
 
 class ProfileCard extends Component {
-	
+
 	render() {
+        const {profileImg, userName, job, coverImg, desc} = this.props;
+
 		return (
 			<div className="card">
-
-			    <img className="profile" src={this.props.profileImg} alt="profile"  />
 			    <div className="content">
-			        <h2 className="name">{this.props.userName}</h2>
-			        <p className="job">{this.props.job}</p>
-			        <img className="cover" src={this.props.coverImg} alt="cover" />
-			        <p className="desc">{this.props.desc}</p>
+                    <img className="profile" src={profileImg} alt="profile"  />
+			        <h2 className="name">{userName}</h2>
+			        <p className="job">{job}</p>
+			        <img className="cover" src={coverImg} alt="cover" />
+			        <p className="desc">{desc}</p>
 			        <hr />
 			    </div>
 			    <div className="footer">
-			    <i className="fa fa-heart" aria-hidden="true"></i>
-			    <i className="fa fa-comment-o" aria-hidden="true"></i>
-			    <i className="fa fa-retweet" aria-hidden="true"></i>
-			    <i className="fa fa-envelope-o" aria-hidden="true"></i>
+					<i className="fa fa-heart" aria-hidden="true"></i>
+					<i className="fa fa-comment-o" aria-hidden="true"></i>
+					<i className="fa fa-retweet" aria-hidden="true"></i>
+					<i className="fa fa-envelope-o" aria-hidden="true"></i>
 			    </div>
-
 			</div>
 		)
 	}
